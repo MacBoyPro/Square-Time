@@ -1,0 +1,26 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Timeline based (animation example)</title>
+        
+        <style type="text/css">
+            div#square {
+                width: 100px;
+                height: 100px;
+                background-color: blue;
+            }
+        </style>
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script type="text/javascript" src="square.js"></script>
+        <script type="text/javascript">
+            $(document).ready( function () {
+               SQUARE.start();             
+            });
+        </script>
+        
+    </head>
+    <body>
+        <div id="square"></div>
+    </body>
+</html>
