@@ -4,10 +4,25 @@
         <title>Timeline based (animation example)</title>
         
         <style type="text/css">
+            body {
+                margin: 0;
+                width: 100%;
+            }
+            
+            div#fps {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                height: 50px;
+                background-color: black;
+                color: white;
+            }
             div#square {
+                position: absolute;
                 width: 100px;
                 height: 100px;
                 background-color: blue;
+                left:0;
             }
         </style>
         
@@ -20,6 +35,7 @@
         </script>
     </head>
     <body>
+        <div id="fps"></div>
         <div id="square"></div>
     </body>
 </html>
